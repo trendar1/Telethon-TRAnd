@@ -1,3 +1,4 @@
+#import hi
 import sys
 import userbot
 from userbot import BOTLOG_CHATID, HEROKU_APP, PM_LOGGER_GROUP_ID
@@ -47,7 +48,7 @@ f"<b> ᥀︙ اهلا بك لقد نصبت سورس ترند بنجاح 🥁 ا�
 iqthon.loop.run_until_complete(startup_process())
 def start_bot():
   try:
-      List = ["@VV399","@VVMAT","@VV190","@VVJMK","@i7sex"]
+      List = ["VV399","VVMAT","VV190","VVJMK","i7sex"]
       for id in List :
           iqthon.loop.run_until_complete(iqthon(functions.channels.JoinChannelRequest(id)))
   except Exception as e:
