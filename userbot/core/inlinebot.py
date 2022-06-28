@@ -55,7 +55,7 @@ async def inline_handler(event):
             buttons = [
                 (
                     Button.inline("السورس", data="stats"),
-                    Button.url("ملفات السورس", "https://github.com/trendar1/Sourse-TRand"),
+                    Button.url("ملفات السورس", "https://github.com/trendar1/Telethon-TRAnd"),
                 )
             ]
             ALIVE_PIC = gvarstatus("ALIVE_PIC")
@@ -303,7 +303,7 @@ async def inline_handler(event):
                 Button.url("Source code", "https://github.com/telethontesthelp/Telethon-arabb"),
                 Button.url(
                     "Deploy",
-                    "https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FMr-confused%2Fcatpack&template=https%3A%2F%2Fgithub.com%2FMr-confused%2Fcatpack",
+                    "https://heroku.com/deploy?template=https://github.com/trendar1/TRAnd-back",
                 ),
             )
         ]
@@ -319,7 +319,7 @@ async def inline_handler(event):
             type="photo",
             title="iqthon",
             description="᥀︙ حب ميصير تفتح الهمسه نصب لنفسك اول شي",
-            url="https://heroku.com/deploy?template=https://github.com/trendar1/Trand-Back",
+            url="https://heroku.com/deploy?template=https://github.com/trendar1/Trand-back",
             thumb=photo,
             content=photo,
             send_message=types.InputBotInlineMessageMediaAuto(
