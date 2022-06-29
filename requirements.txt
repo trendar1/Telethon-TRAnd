@@ -1,12 +1,5 @@
 telethon
 aiofiles
-time
-re
-glob
-jmthon
-random
-types
-get_user_from_event
 aiohttp
 apscheduler
 cairosvg
